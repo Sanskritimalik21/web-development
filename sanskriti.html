@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sanskriti Gym</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Balsamiq Sans', cursive;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('gym eq.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .navbar {
+        display: inline-block;
+        color: black;
+        background-color: white;
+        text-align: center;
+        border: 2px solid gray;
+        border-radius: 10px;
+        margin: 0px 0px;
+        padding: 9px 10px;
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 15px;
+        text-indent: 2px;
+    }
+    .navbar li a{
+        color: black;
+        text-decoration: none;
+        padding: 16px 10px;
+    }
+    .navbar li a:hover, .navbar li a:active{
+        color: grey;
+        text-decoration: underline;
+    }
+    .left {
+        left: 60px;
+        top: 22px;
+        position: absolute;
+        display: inline-block;
+        color: white;
+    }
+    .left img{
+        width: 100px;
+    }
+
+    .left div{
+        line-height: 19px;
+        font-size: 20px;
+        text-align:center;
+        color: #000;
+    }
+
+    .mid {
+        color: white;
+        display: block;
+        width: 40%;
+        margin: 20px 550px;
+    }
+
+    .right {
+        right: 55px;
+        top: 20px;
+        position: absolute;
+        display: inline-block;
+        color: white;
+    }
+    .btn{
+        margin: 2px 9px;
+        background-color: azure;
+        padding: 3px 4px;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-size: 20px;
+        font-family: 'Balsamiq Sans', cursive;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: darkgray;
+    }
+    .container{
+        border: 2px solid black;
+        background-color: lightgray;
+        margin: 220px 300px;
+        padding: 40px 30px;
+        border-radius: 20px;
+        width: 33%;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        width: 30%;
+        text-align: center;
+        padding: 130px auto;
+        background-color: #000;
+        color: aliceblue;
+    }
+    .form input{
+        text-align: center;
+        display: block;
+        width: 80%;
+        padding: 6px;
+        border: 2px solid black;
+        border-radius: 10px;
+        font-size: 15px;
+        font-family: 'Balsamiq Sans', cursive;
+        margin: 11px auto;
+    }
+</style>
+
+<body>
+    <header class="header">
+            <div class="left">
+                <img src="icon gym.png" alt="">
+                <div>Sanskriti </div>
+                  <div>Fitness</div>
+            </div>
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Fitness Calculator</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <button class="btn">Call Us</button>
+                <button class="btn">Email Us</button> 
+                  </div>
+    </header>
+    <div class="container">
+       <h1>Join the best GYM Now</h1>
+       <form action="noaction.php">
+        <div class="form">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div> 
+        <div class="form">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+        <div class="form">
+            <input type="text" name="" placeholder="Enter your Locality">
+        </div>
+        <button class="btn">Submit</button>
+       </form>    
+    </div>
+          </body>      
+</html>
